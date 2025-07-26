@@ -321,6 +321,68 @@
     </div>
     <!--/ NVS. -->
 
+    <!-- decomposition. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Result: Illumination Decomposition</h2>
+        <div class="content has-text-justified">
+          <img src="static\images\nvs_compare.png", alt="Decomposition">
+          <p>
+            Sun shading captures the effects of direct sunlight, 
+            sky shading represents diffuse radiance from the sky, 
+            indirect shading models global illumination interactions, 
+            and reflectance preserves material properties independent of lighting. 
+            Combined with the sun visibility map, these components 
+            reconstruct the final illumination with high accuracy and physical plausibility
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ decomposition. -->
+
+    <!-- Relighting. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Result: Illumination Interpolation</h2>
+        <div class="content has-text-justified">
+          <img src="static\images\relight.png", alt="Relighting">
+          <p>
+            <strong>Relighting through illumination interpolation.</strong> 
+            Visualization shows how scene appearance evolves when 
+            interpolating between two arbitrary illumination conditions. 
+            Each shading component—sun shading, sky shading, and indirect 
+            shading—is interpolated both individually and collectively (All), 
+            highlighting the ability to control lighting variations at a granular level. 
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Relighting. -->
+
+    <!-- Interpolation. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Videos: Illumination Interpolation</h2>
+        <div class="content has-text-justified">
+          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+            <source src="static\videos\interpolation.mp4" type="video/mp4">
+        </div>
+      </div>
+    </div>
+    <!--/ Interpolation. -->
+
+    <!-- Shadowing. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Videos: Relighting and Shadowing</h2>
+        <div class="content has-text-justified">
+          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+            <source src="static\videos\relighting_shadowing.mp4" type="video/mp4">
+        </div>
+      </div>
+    </div>
+    <!--/ Shadowing. -->
+
           
     
 
